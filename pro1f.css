@@ -1,0 +1,14 @@
+ h1{background-color:black; text-align:left;color:white;border:solid hotpink 5px; width:auto; font-size:50px;font-weight:bold;font-style: oblique;padding:20px;float:top;margin:0;}
+img.title{float:right; width:250px; height:75px;float:right}
+ body{background-color:black;background-attachment: fixed;}
+ div{border:solid 1px black; width: 700px;background-color:gray;padding:15px; margin:10px}
+ div:hover {border: solid hotpink 5px;}
+ p {color:white;}
+ a, a:link{color:black;font-family:bold;border:solid black;text-decoration: none;background-color:pink;text-align:center;text-size:5px;target:_blank}
+ a:hover, a:active  {color:white;background-color:black;display: inline-block;}
+ h2{color:white; font-style:obliqe}
+ h2:hover {color:black;background-color:pink;border:solid black;width:200px;}
+ ul { list-style-type: none; margin: 5px; padding: 0;overflow: hidden; background-color:black;}
+ li a {display: inline-block;color: white;text-align: center;padding: 14px 16px; text-decoration: none;float:left;background-color:black;border: solid hotpink 2px;width:30%;}
+ li a:hover {background-color:hotpink; color:black; font-family:bold;}
+footer{color :white; background-color:black; border: solid hotpink 5px; padding:10px; margin;10px; text-size 30px;text-align:center;}

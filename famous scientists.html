@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Famous sientists </title>
+<link rel="stylesheet" type="text/css" href="famousthem.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("pre,p,legend").toggleClass("white");
+	$(" body").toggleClass("black");
+	$(" ul").toggleClass("ul");
+	$(" li a").toggleClass("lia");
+	$(" li a:hover").toggleClass("lia:hover");
+	$(" h1,h2,h3").toggleClass("green");
+	$(" table").toggleClass("table");
+	$(" th,td").toggleClass("thtd");
+  });
+});
+</script>
+<style>
+.white{color:white}
+.black{background-color:black}
+.green{color:green}
+.ul { list-style-type: none;margin-left:10px;  padding: 0;overflow: hidden; background-color:black;width:100%;}
+.lia {display: inline-block;color: black;text-align: center;padding: 20px 20px; text-decoration: none;float:left;background-color:green;width:30%;border:solid black 2px;}
+.lia:hover {background-color:black; color:green; font-family:bold;}
+.table{float:right; border:2px solid white;background-color:green; height:500px;color:black;text-align:center;}
+.thtd{border:solid black 2px;}
+</style>
+</head>
+<body>
+<img src="images/screen.jpg" alt="Famous sientists">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="project 2.html">Arab scientist</a></li>
+  <li><a href="project 1.html">Famous sientists through history</a></li>
+</ul><br>
+<button style="display:inline-block;float:right;padding:15px;text-align:center;background-color:darkblue;margin:10px;color:white">Dark theme</button>
+
+<video controls>  <source src="images/videoplayback.mp4" type="video/mp4"> </video>
+<table>
+   <tr>
+    <th>scientist</th>
+    <th>  field</th>
+   </tr>
+
+   <tr>
+     <td>Albert einistin</td>
+     <td>physics</td>
+   </tr>
+    <tr>
+     <td>marine curie</td>
+     <td>physics</td>
+   </tr>
+    <tr>
+     <td>tomas adison</td>
+     <td>Inventor</td>
+   </tr>
+    <tr>
+     <td>Graham bell</td>
+     <td>Inventor</td>
+   </tr>
+   <tr>
+     <td>stephen howkins</td>
+     <td>physics</td>
+   </tr>
+</table>
+<h2> Famous Scientists</h2>
+<pre>About 2.3 million years ago our ancestors invented their first primitive tool,
+ the split stone, which they used for cutting and scraping.
+Modern humans first appeared about 200,000 years ago.
+About 50,000 years ago they (or should that be we?) began to use language, symbols, and more complex tools.
+As inventions and discoveries added to one another, human civilization, technology, and science advanced and evolved.</pre>
+<h2>Most Famous Scientists and Inventors in History</h2>
+<pre> The beginnings of science and the scientific method largely came from the ancient Greek world,
+ which encompassed the eastern part of the Mediterranean.
+The names of the great scientists and philosophers of that time,
+ such as Pythagoras, Archimedes, Aristotle, Eratosthenes and Thales, are still known today, over 2,000 years later.
+</pre>
+<h2>The Era of Modern Science Begins</h2>
+<pre> Science entered a new era with the Renaissance, which began in 14th century Italy. By the 17th century it had extended and blossomed throughout most of Europe.
+The fall of Constantinople in 1453 resulted in a large number of refugees fleeing to Europe,
+ bringing with them Greek and Roman books that had been archived in Constantinople,
+ unused for centuries. This, and the invention of the printing press in about 1450 accelerated the pace of learning in Renaissance Europe.
+Unfortunately for science, only a few people thirsted for scientific knowledge and progress,
+ while most intellectuals focused on artistic or liberal arts disciplines.
+It was only in the 17th century that a rapid scientific revolution finally took place.</pre>
+<img src="images/famous-scientist-montage.jpg">
+<div>
+ <h3> you can add scientist here</h3>
+ <form action ="famous scientists.html">
+ <fieldset>
+ <legend> scientist informations</legend>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  field:<br>
+  <select name="field">
+  <option value="physics">physics</option>
+  <option value="Chemistry">Chemistty</option>
+  <option value="Astronomy.">Astronomy.</option>
+  <option value="Biology">Biology</option>
+  <option value="Mathematics">Mathematics</option>
+  <option value="other field">other field</option>
+  </select><br>
+  achievements:<br>
+<textarea name="message" rows="10" cols="30">
+</textarea><br> 
+  <input type="submit" value="submit">
+  </fieldset>
+</form>
+</div>
+
+</body>
+</html>
