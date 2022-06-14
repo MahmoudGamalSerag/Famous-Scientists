@@ -1,2 +1,3 @@
 # Famous-Scientists
-An HTML And CSS Page About Famous Scientists
+A Front-End Web page Desigened Using HTML And CSS 
+The Content About Famous Scientists
